@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(194, 194, 194);
+    padding: 50px;
+    box-shadow: black ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    min-height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow:1px 1px 10px rgb(118, 117, 117);
+    margin: 10px;
+}
+
+.left{
+    position: relative;
+    background-color: rgba(37, 37, 62, 0.915);
+    padding: 30px;
+    color: white;
+}
+.right{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.915);
+    padding: 30px;
+}
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:20px;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+   overflow: hidden;
+   border-radius: 110px;
+   display: flex;
+   padding-bottom:00px;
+   box-shadow: 1px 2px 9px whitesmoke, 2px 2px 19px black;
+   margin-bottom: 20px;
+   
+  
+
+}
+.image img{
+    
+    object-fit: cover;
+    top: 30px;
+    width:200px;
+    
+    
+}
+
+/* .image:hover{
+    
+    background-color:rgba(0, 0, 0, 0.5) ;
+    
+    
+} */
+
+
+.contact{
+    position: relative;
+    display: flex-center;
+    padding: 3px;
+    padding-bottom: 17px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid;
+
+}
+
+.contact h3{
+    padding-top: 17px;
+    padding-bottom: 10px;
+    font: weight 8000px;;
+
+}
+.contact ul{
+    list-style-type: none;
+}
+.contact ul li{
+    text-decoration: none;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: small;
+}
+.contact ul li .icon{
+    display: inline-block;
+    padding: 3px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.contact ul li a{
+    text-decoration:none;
+    color: white;
+}
+.contact ul li abbr{
+    text-decoration:none;
+    color: white;
+}
+
+.education  {
+
+    position: relative;
+    display: flex-center;
+    padding: 3px;
+    padding-bottom: 17px;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.education ul{
+    list-style-type:armenian;
+}
+.education ul li{
+
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: small;
+
+}
+
+.education h3{
+
+    padding-top: 17px;
+    padding-bottom: 15px;
+    font: weight 8000px;
+    letter-spacing: 1.7px;
+    font-size: 22px;
+    
+
+    
+}
+
+.education ul li .eduman{
+    padding-left: 10px;
+    padding-top: 9px;
+    margin-top: 2px;
+}
+/* .try{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: aliceblue;
+    width: 100%;
+    height:6px;
+    padding-bottom: 0px;
+    position: relative;
+    display: fle;
+
+} */
+.education ul li .edu{
+
+    font-size: medium;
+}
+/* 
+.projects{
+    padding: 5px;
+    max-width: 100%;
+    align-items: center;
+   
+    
+    
+
+}
+.projects h3{
+
+    position: absolute;
+    font-size: larger;
+    letter-spacing: 4px;
+}
+.projects ul li{
+    width: 100%;
+   align-items:center;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 100px;
+    text-align: left;
+    
+}
+.projects ul li .detail{
+    padding-left: 10px;
+
+} */
+.about{
+
+    padding: 10px;
+    margin-bottom:0px;
+}
+
+.about h3{
+    color:rgba(37, 37, 62, 0.915);
+    padding-bottom: 0px;
+    letter-spacing:1px;
+}
+
+.about p{
+    padding-top: 5px;
+    margin-bottom: 10px;
+    text-align:auto;
+    font-size: 15px;
+    color: rgb(118, 117, 117);
+    max-width:100%;
+}
+
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+}
+
+.about .box .text{
+    margin-left: 40px;
+    max-width: 100%;
+}
+
+.about .box .name{
+    margin-left:15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    color: rgba(37, 37, 62, 0.915);
+    
+}
+.about .box .name h3{
+    padding: 12px;
+}
+.about .box .name h6{
+    padding-top: 3px;
+}
+.skill li{
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.skill li{
+    display: flex;
+    flex-direction: row;
+}
+.bar {
+    top:6px;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(0, 0, 0);
+    padding:2px;
+    margin-left:0px;
+    position: relative;
+}
+.pp{
+    width:20%;
+}
+.full{
+    left:1px;
+    top:0px;
+    background-color: rgb(185, 65, 65);
+    height: 6px;
+    position: absolute;
+    width:85% ;
+}
