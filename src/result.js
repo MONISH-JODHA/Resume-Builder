@@ -5,20 +5,20 @@ document.addEventListener("DOMContentLoaded", function(){
     const v2= localStorage.getItem('VALUE2');
     document.getElementById("detail").innerHTML= v2;
 
-    const v3= localStorage.getItem('VALUE3');
-    document.getElementById("g3").innerHTML= v3;
+    // const v3= localStorage.getItem('VALUE3');
+    // document.getElementById("g3").innerHTML= v3;
 
-    const v4= localStorage.getItem('VALUE4');
-    document.getElementById("g4").innerHTML= v4;
+    // const v4= localStorage.getItem('VALUE4');
+    // document.getElementById("g4").innerHTML= v4;
 
-    const v5= localStorage.getItem('VALUE5');
-    document.getElementById("g5").innerHTML= v5;
+    // const v5= localStorage.getItem('VALUE5');
+    // document.getElementById("g5").innerHTML= v5;
 
-    const v6= localStorage.getItem('VALUE6');
-    document.getElementById("g6").innerHTML= v6;
+    // const v6= localStorage.getItem('VALUE6');
+    // document.getElementById("g6").innerHTML= v6;
 
-    const v0= localStorage.getItem('VALUE6');
-    document.getElementById("g0").innerHTML= v0;
+    // const v0= localStorage.getItem('VALUE6');
+    // document.getElementById("g0").innerHTML= v0;
 
     const v7= localStorage.getItem('VALUE7');
     document.getElementById("g7").innerHTML= v7;

@@ -306,7 +306,7 @@ body{
     position: relative;
     display: block;
 }
-.download{
+#getfile{
     color: rgb(240, 248, 255);
     background-color:rgba(37, 37, 62, 0.915);
     border-radius: 5px;
@@ -319,7 +319,7 @@ body{
     margin: auto;
  
 }
-.download:hover{
+#getfile:hover{
     color:rgba(37, 37, 62, 0.915);
     background-color: rgb(49, 121, 184);
 }
