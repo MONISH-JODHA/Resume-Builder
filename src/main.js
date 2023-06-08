@@ -5,20 +5,20 @@ function sub(){
    const val2=document.getElementById("i2").value;
    localStorage.setItem("VALUE2", val2);
 
-   // const val3=document.getElementById("i3").value;
-   // localStorage.setItem("VALUE3", val3);
+   const val3=document.getElementById("i3").value;
+   localStorage.setItem("VALUE3", val3);
 
-   // const val4=document.getElementById("i4").value;
-   // localStorage.setItem("VALUE4", val4);
+   const val4=document.getElementById("i4").value;
+   localStorage.setItem("VALUE4", val4);
 
-   // const val5=document.getElementById("i5").value;
-   // localStorage.setItem("VALUE5", val5);
+   const val5=document.getElementById("i5").value;
+   localStorage.setItem("VALUE5", val5);
 
-   // const val6=document.getElementById("i6").value;
-   // localStorage.setItem("VALUE6", val6);
+   const val6=document.getElementById("i6").value;
+   localStorage.setItem("VALUE6", val6);
 
-   // const val0=document.getElementById("i0").value;
-   // localStorage.setItem("VALUE6", val0);
+   const val0=document.getElementById("i0").value;
+   localStorage.setItem("VALUE0", val0);
 
 
    const val7=document.getElementById("i7").value;
@@ -71,7 +71,7 @@ function sub(){
    localStorage.setItem("VALUE22", val22);
 
    const val23=document.getElementById("i23").value;
-   localStorage.setItem("VALUE", val23);
+   localStorage.setItem("VALUE23", val23);
 
 }
 function subb(){
