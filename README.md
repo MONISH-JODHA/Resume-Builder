@@ -4,7 +4,6 @@ Create your Responsive Modern UI-based Resume with just a single hit of click in
 
 ![image](https://github.com/MONISH-JODHA/Resume-Builder/assets/104707700/bff1e96c-1f32-464f-bce8-8835ce42d56e)
 
-
 A resume is a concise document that summarizes your education, work experience, skills, and achievements. It is typically used when applying for jobs or internships to showcase your qualifications and suitability for a particular position. A well-crafted resume should effectively communicate your professional background and make a strong impression on potential employers.
 
 The purpose of a resume is to provide a snapshot of your relevant qualifications, allowing employers to quickly assess your suitability for a job. It typically includes sections such as:
