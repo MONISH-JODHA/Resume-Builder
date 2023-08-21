@@ -2,7 +2,6 @@
 
 
 
-
 # Resume-Builder
 Create your Responsive Modern UI-based Resume with just a single hit of click in a snap of time and with minimal effort from your side 
 
